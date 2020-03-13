@@ -80,13 +80,18 @@ main{
     font-size:1.2em;
     left:15vw;
     top:6vh;
+    width:70vw;
+    text-align: justify;    
 }
 
 #gallery{
     position:relative;
     top:20vh;
     height:50vh;
+    
 }
+
+
 
 #gallery-head{
     position: absolute;
@@ -97,16 +102,119 @@ main{
 #images{
     position:absolute;
     height: 15vh;
+    
 }
+
+#bg1{
+    width:23vw;
+    height:auto;
+    position: absolute;
+    top:12vh;
+    left:15vw;
+}
+
+#bg2{
+    position: absolute;
+    width:23vw;
+    height:auto;
+    left:40vw;
+    top:12vh;
+}
+
+#bg3{
+    position: absolute;
+    width:20.5vw;
+    height:auto;
+    left:65vw;
+    top:12vh;
+}
+
+#showMore{
+    position: absolute;
+    width:50vw;
+    background-color: lightslategray;
+    height:6vh;
+    left:25vw;
+    top:45vh;
+    text-align: center;
+}
+
+#showMore p{
+    position:absolute;
+    left:28vw;
+    margin:0;
+    top:1.5vh;
+}
+
+#showMore_button{
+    position:absolute;
+    left:20vw;
+    font-size: 1.4em;
+    padding:0;
+    margin:0;
+    top:0.8vh;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#galleryAnchor{
+    text-decoration: none;
+    color:black;
+}
+
+#galleryAnchor:hover{
+    color:white;
+    
+}
+
+#showMore:hover{
+    background-color:black;
+    transition: 1.5s;
+}
+
 
 #videos{
     position:absolute;
     height:20vh;
 }
 
+#left{
+    position:absolute;
+    left:18vw;
+    top:53vh;
+}
+
+#right{
+    position: absolute;
+    left:62vw;
+    top:53vh;
+}
+
+#center{
+    position: absolute;
+    left:40vw;
+    top:53vh;
+}
+
+video{
+    width:auto;
+    height:auto;
+}
+
 #events{
     position:relative;
-    top:45vh;
+    top:50vh;
 }
 
 #event-info{
@@ -114,6 +222,8 @@ main{
     left:15vw;
     font-size:1.2em;
     top:6vh;
+    width:70vw;
+    text-align: justify;
 }
 
 #event-head{
@@ -122,9 +232,35 @@ main{
     font-size:1.8em;
 }
 
+#register{
+    background-color: lightslategray;
+    color:black;
+    position: absolute;
+    left:15vw;
+    top:30vh;
+    width: 15vw;
+    text-align: center;
+    
+}
+
+#registerInfo{
+    margin:0;
+    font-size:1.2em;
+}
+
+#register:hover{
+    background-color:black;
+    color:white;
+    transition: 1.5s;
+}
+
+#registerAnchor{
+    text-decoration: none;
+}
+
 #details{
     position:relative;
-    top:90vh;
+    top:95vh;
     height:80vh;
 }
 
@@ -168,6 +304,9 @@ footer{
     position:absolute;
     left:46vw;
 }
+
+
+
 
 
 
