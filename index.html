@@ -5,14 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylesheets/HomeStyle.css"/>
+        <script type="text/javascript" src="scripts/slideshow.js"></script>
+        <link rel="stylesheet" href="stylesheets/slideshow.css"/>
     </head>
-    <body>
+    <body onload="setInterval(slideShow, 3500)">
 
         <header id="head">
             <img id="khanda1" alt="Khanda.png" src="images/khanda.png">
             <h1>ਵਾਰਿਸ ਵਿਰਸੇ ਦੇ</h1>
             <img id="khanda2" alt="Khanda.png" src="images/khanda.png">
-            <h2></h2>
         </header>
 
         <nav id="nav">
@@ -31,29 +32,51 @@
 
         <main>
             <h3 id="about-head">About</h3>
-            <p id="about-info">Some Text</p>
+            <p id="about-info">Apollo 9 (March 3–13, 1969) was the third crewed mission in the United States Apollo program. Launched by a Saturn V rocket and flown in Low Earth Orbit, the mission flight-qualified the Lunar Module, showing that its crew could fly it independently, then rendezvous and dock, as would be required for Apollo 11, the first crewed lunar landing. Commander James McDivitt, Command Module Pilot David Scott, and Lunar Module Pilot Rusty Schweickart tested systems and procedures critical to landing on the Moon. A spacewalk tested the extravehicular life support backpack</p>
         </main>
 
         <div id="gallery">
             <h3 id="gallery-head">Gallery</h3>
             <div id="images">
-                <div id="images-slideshow">
-
-                </div>
+                <img src="images/bg1.jpg" alt="bg1.jpg" id="bg1">
+                <img alt="bg2.jpg" src="images/bg2.jpg" id="bg2">
+                <img alt="bg3.jpg" src="images/bg3.jpg" id="bg3">
+                <a href="content/Gallery.html" id="galleryAnchor"> 
+                    <div id="showMore">
+                        <h6 id="showMore_button">Show More</h6>
+                        <p><i class="arrow right"></i></p>
+                    </div>
+                </a>
 
             </div>
             <div id="videos">
                 <div id="left">
-
+                    <video controls>
+                        <source src="videos/vid1.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div id="right">
-
+                    <video controls>
+                        <source src="videos/vid2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="center">
+                    <video controls>
+                        <source src="videos/vid3.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
         <div id="events">
             <h3 id="event-head">Events</h3>
-            <p id="event-info">Some Text</p>
+            <p id="event-info">Apollo 9 (March 3–13, 1969) was the third crewed mission in the United States Apollo program. Launched by a Saturn V rocket and flown in Low Earth Orbit, the mission flight-qualified the Lunar Module, showing that its crew could fly it independently, then rendezvous and dock, as would be required for Apollo 11, the first crewed lunar landing. Commander James McDivitt, Command Module Pilot David Scott, and Lunar Module Pilot Rusty Schweickart tested systems and procedures critical to landing on the Moon. A spacewalk tested the extravehicular life support backpack</p>
+            <a href="mailTo:someone@some.com" id="registerAnchor">
+                <div id="register">
+                    <h5 id="registerInfo">
+                        Register <i class="arrow right"></i>
+                    </h5>
+                </div>
+            </a>
         </div>
 
         <div id="details">
@@ -72,7 +95,6 @@
                         <iframe width="402" height="427" id="gmap_canvas" 
                                 src="https://maps.google.com/maps?q=Waris%20virse%20de%2C%20Regan%20Road%2C%20Brampton%2C%20ON&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-
                         </iframe>
                         <a href="https://www.embedgooglemap.net"></a>
                     </div>
