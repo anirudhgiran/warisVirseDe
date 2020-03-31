@@ -11,16 +11,45 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylesheet/homeStyle.css"/>
         <script type="text/javascript" src="scripts/scroll.js"></script>
+        <script type="text/javascript" src="scripts/Script.js"></script>
     </head>
     <body>
+
+
         <div id="nav">
-            <a href="#default" id="logo">Waris Virse De</a>
+            <a href="#default" id="logo">WARIS VIRSE DE</a>
             <div id="right">
-                <a href="#default" class="active">Home</a>
-                <a href="content/gallery.html">Gallery</a>
-                <a href="mailTo:warisvirsedey@gmail.com">Contact Us</a>
-                <a href="#register">Register</a>
+                <a href="#default" class="active">HOME</a>
+                <a href="content/gallery.html">GALLERY</a>
+                <a href="mailTo:someone@some.com">CONTACT US</a>
+                <button type="button" onclick="regOpen()">REGISTER</button>
             </div>
+        </div>
+
+        <div id="reg">
+            <span id="cross" onclick="regClose()">&times;</span>
+            <form id="form" action="mailto:firstlaptopv3@gmail.com;" method="post" enctype="text/plain">
+
+                <h2 id="formHead">Join us TODAY!!!</h2>
+                <h4>Name</h4>
+                <input type="text" name="Name">
+                <h4>Mobile Number</h4>
+                <input type="text" name="Mobile Number">
+                <h4>Email Address</h4>
+                <input type="text" name="Email">
+                <h4>Age</h4>
+                <input type="text" name="Age">
+                <h4>Level</h4>
+                <input list="level" name="Level">
+                <datalist id="level" >
+                    <option value="Beginner">
+                    <option value="Intermediate">
+                    <option value="Experienced">
+                </datalist><br>
+                
+                <button type="submit" id="btnSub">Submit</button>
+
+            </form>
         </div>
 
         <div class="bgimg-1">
@@ -50,7 +79,7 @@ and open the template in the editor.
         <div style="position:relative;" >
             <h3 style="text-align:center;">Locate Us</h3>
             <div id="map" style="color:#ddd;text-align:center;padding:50px 80px;text-align: justify;">
-                
+
                 <div class="mapouter">
                     <div class="gmap_canvas">
                         <iframe width="644" height="372" 
@@ -66,7 +95,7 @@ and open the template in the editor.
 
         <div class="bgimg-1">
             <div class="caption">
-                <span class="border">REGISTER</span>
+                <span class="border" >REGISTER</span>
             </div>
         </div>
     </body>
