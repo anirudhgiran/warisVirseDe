@@ -12,3 +12,9 @@ function scrollFunction() {
     document.getElementById("right").style.fontSize="20px";
   }
 }
+
+
+
+function register(){
+    document.getElementsByClassName("register").style.display="block";
+}
