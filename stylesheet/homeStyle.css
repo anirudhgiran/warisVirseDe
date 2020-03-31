@@ -149,6 +149,83 @@ ul li{
     overflow:hidden;
     background:none!important;
     height:372px;
-    width:644px;}
+    width:644px;
+}
+
+#reg{
+    display:none;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height:100vh;
+    z-index: 999;
+    grid-column-template: 1fr;
+    justify-content: center;
+}
+
+#cross{
+    color:red;
+    font-size: 3.5rem;
+    position: relative;
+    left:45vw;
+    top:6vh;
+    cursor: pointer;
+    z-index: 1000;
+    
+}
+
+form{
+    text-align: center;
+    background-color:whitesmoke;
+    width:50vw;
+    height:90vh;
+    top:5vh;
+    position: relative;
+    border-radius: 30px;
+    opacity: 1;
+    padding-top:0vh;
+    color:black;
+    
+}
+
+#btnSub{
+    font-size:1.5rem;
+    margin-top:2vh;
+    color:white;
+    width:10vh;
+    font-weight: bold;
+    background-color:black;
+}
+
+#formHead{
+    font-size: 3rem;
+    color:black;
+    opacity: 1;
+    padding:0;
+    margin:0;
+    margin-top:2vh;
+    margin-bottom: 10vh;
+    
+}
+
+form h4{
+    padding:0;
+    margin:0;
+}
+
+form input[ type=text ]{
+    width:20vw;
+    height:3vh;
+    margin-bottom: 2vh;
+}
+
+
+.border{
+    cursor: pointer;
+}
+
+
+
 
 
